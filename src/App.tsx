@@ -9,7 +9,7 @@ function App() {
 		<div className='App'>
 			<header className='App-header'>
 				<img src={logo} className='App-logo' alt='logo' />
-				<p>If you are seeing this be careful</p>
+				<h2>If you are seeing this be careful</h2>
 				<p>
 					<button
 						type='button'
