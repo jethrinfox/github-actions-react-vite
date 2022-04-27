@@ -1,5 +1,6 @@
 {
 	"parser": "@typescript-eslint/parser",
+	"plugins": ["jest", "react", "@typescript-eslint", "testing-library"],
 	"extends": [
 		"eslint:recommended",
 		"plugin:react/recommended",
@@ -8,7 +9,6 @@
 		"plugin:jest/style",
 		"plugin:testing-library/react"
 	],
-	"plugins": ["jest", "react", "@typescript-eslint", "testing-library"],
 	"env": {
 		"browser": true,
 		"es2021": true,

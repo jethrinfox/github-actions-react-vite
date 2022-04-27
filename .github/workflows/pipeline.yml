@@ -13,7 +13,7 @@ jobs:
             - uses: actions/setup-node@v3
               with:
                   node-version: 14.18.1
-            - run: yarn install
+            - run: yarn install --frozen-lockfile
             - run: yarn lint
     build:
         needs: [lint]
